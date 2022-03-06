@@ -1,4 +1,3 @@
-/*
 package com.tencent.wxcloudrun.controller;
 
 import com.alibaba.fastjson.JSONObject;
@@ -20,7 +19,7 @@ import java.util.Map;
 @RequestMapping("/auth")
 public class WeChatController {
 
-    @Autowired
+    @Resource
     private RestTemplate restTemplate;
     @Autowired
     private WechatConfig weChatConfig;
@@ -50,4 +49,3 @@ public class WeChatController {
     }
 }
 
-*/
