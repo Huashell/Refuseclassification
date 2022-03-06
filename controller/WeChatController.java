@@ -19,7 +19,7 @@ import java.util.Map;
 @RequestMapping("/auth")
 public class WeChatController {
 
-    @Resource
+    @Autowired
     private RestTemplate restTemplate;
     @Autowired
     private WechatConfig weChatConfig;
